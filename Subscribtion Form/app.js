@@ -83,7 +83,7 @@ $(function() {
                                 changeFormState('error', messages[data.error]);
                                 break;
                             default:
-                                changeFormState('error', messages['default_error'])
+                                changeFormState('error', messages['x_error'])
                                 break;
                         }
                     }
